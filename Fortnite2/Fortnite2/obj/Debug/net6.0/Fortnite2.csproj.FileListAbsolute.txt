@@ -1,0 +1,15 @@
+C:\Users\ebbeg\source\repos\Fortnite2\Fortnite2\obj\Debug\net6.0\Fortnite2.csproj.AssemblyReference.cache
+C:\Users\ebbeg\source\repos\Fortnite2\Fortnite2\obj\Debug\net6.0\Fortnite2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ebbeg\source\repos\Fortnite2\Fortnite2\obj\Debug\net6.0\Fortnite2.AssemblyInfoInputs.cache
+C:\Users\ebbeg\source\repos\Fortnite2\Fortnite2\obj\Debug\net6.0\Fortnite2.AssemblyInfo.cs
+C:\Users\ebbeg\source\repos\Fortnite2\Fortnite2\obj\Debug\net6.0\Fortnite2.csproj.CoreCompileInputs.cache
+C:\Users\ebbeg\source\repos\Fortnite2\Fortnite2\bin\Debug\net6.0\Fortnite2.exe
+C:\Users\ebbeg\source\repos\Fortnite2\Fortnite2\bin\Debug\net6.0\Fortnite2.deps.json
+C:\Users\ebbeg\source\repos\Fortnite2\Fortnite2\bin\Debug\net6.0\Fortnite2.runtimeconfig.json
+C:\Users\ebbeg\source\repos\Fortnite2\Fortnite2\bin\Debug\net6.0\Fortnite2.dll
+C:\Users\ebbeg\source\repos\Fortnite2\Fortnite2\bin\Debug\net6.0\Fortnite2.pdb
+C:\Users\ebbeg\source\repos\Fortnite2\Fortnite2\obj\Debug\net6.0\Fortnite2.dll
+C:\Users\ebbeg\source\repos\Fortnite2\Fortnite2\obj\Debug\net6.0\refint\Fortnite2.dll
+C:\Users\ebbeg\source\repos\Fortnite2\Fortnite2\obj\Debug\net6.0\Fortnite2.pdb
+C:\Users\ebbeg\source\repos\Fortnite2\Fortnite2\obj\Debug\net6.0\Fortnite2.genruntimeconfig.cache
+C:\Users\ebbeg\source\repos\Fortnite2\Fortnite2\obj\Debug\net6.0\ref\Fortnite2.dll
