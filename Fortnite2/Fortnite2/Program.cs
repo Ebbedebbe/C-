@@ -6,6 +6,15 @@ class Person //Laver en over klasse/objekt
    public string Email = "gg@nutsies.com";
    public string Country = "Timor Leste";
    public int Age = 4;
+    public Person() { } //der skal være en Person til de andre personer
+
+   public Person(string name, string email, string country, int age) //laver en constructor så man nemt kan indsætte værdier
+    {
+        Name = name;
+        Email = email;
+        Country = country;
+        Age = age;
+    }
 
     public bool JoinTourney() //public means accessible for objects
     {
@@ -43,7 +52,12 @@ class Program
         Lvl100MafiaBoss Boss = new Lvl100MafiaBoss();//Laver en local variable der hedder Boss og Crook henholdtsvis
         Lvl1Crook Crook = new Lvl1Crook();
 
+        Person Test = new Person("Hugo", "Hugo@gmail.com", "Seychelles", 6); //indsætter værdier i constructr
+        Console.WriteLine(Test.Name);
+
         Crook.dialogue();//polymorphism samme funktion gør forskellige ting
         Boss.dialogue();
+
+
     } 
 }
