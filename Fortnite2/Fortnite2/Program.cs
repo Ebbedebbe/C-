@@ -1,54 +1,49 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 
-class Person
+class Person //Laver en over klasse/objekt
 {
-    string Name = "ggdeeznuts";
-    string Email = "gg@nutsies.com";
-    string Country = "Timor Leste";
-    int Age = 4;
-   
+   public string Name = "ggdeeznuts"; //giver forskellige data til klassen som senere kan blive inherited
+   public string Email = "gg@nutsies.com";
+   public string Country = "Timor Leste";
+   public int Age = 4;
 
-    public bool JoinTourney()
+    public bool JoinTourney() //public means accessible for objects
     {
-        return true;
+        return true;//funktionen skal ikke gøre noget i koden, så return er bare altid true.
     }
 
-    public double Salary()
+    public double Salary() //Anden funktion som heller ingen funktion i koden har
     {
         double vejgaarddollar = 50.5; // inflation
-        Console.WriteLine(vejgaarddollar);
-        return vejgaarddollar;
+        Console.WriteLine(vejgaarddollar); 
+        return vejgaarddollar; 
     }
 }
 
-class Lvl100MafiaBoss : Person
+class Lvl100MafiaBoss : Person //Objekt der inheriter Person værdier
 {
-    public void dialogue()
+    public void dialogue() //public funktion som gør noget unkt for Lvl100MafiaBoss
     {
-        Console.WriteLine("Lvl100MafiaBoss: ...");
+        Console.WriteLine($"Lvl100MafiaBoss: ...  {Name}, {Email}, {Country}, {Age}");
     }
 }
 
-class Lvl1Crook : Person
+class Lvl1Crook : Person //Objekt der også inhertier Person
 {
-    public void dialogue()
+    public void dialogue() //public funktion som gør noget unkt for Lvl1Crook
     {
         Console.WriteLine("Lvl1Crook: Just use code Mafia2022 for 100.000 Silver!");
     }
 }
-
-
 class Program
 {
-    static void Main()
+    static void Main()//Static fordi funktionen kun tilhører classen Program, og andre objekter kan ikke access
+        //Void fordi der ikke skal returnes noget
     {
-        Person Lvl100MafiaBoss = new Person();
-
-        Lvl100MafiaBoss Boss = new Lvl100MafiaBoss();
-
+        Lvl100MafiaBoss Boss = new Lvl100MafiaBoss();//Laver en local variable der hedder Boss og Crook henholdtsvis
         Lvl1Crook Crook = new Lvl1Crook();
 
-        Crook.dialogue();
+        Crook.dialogue();//polymorphism samme funktion gør forskellige ting
         Boss.dialogue();
-    }
+    } 
 }
